@@ -1,0 +1,9 @@
+clarkwinkelmann-test:
+    admin:
+        settings:
+            title: Test Settings
+
+            field:
+                somefield: Some Field
+
+    forum:

@@ -1,0 +1,36 @@
+{
+    "name": "clarkwinkelmann/test",
+    "description": "Test extension",
+    "keywords": [
+        "extension",
+        "flarum",
+        "test"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Testing",
+            "icon": {
+                "name": "bug",
+                "backgroundColor": "#3b7b00",
+                "color": "#ffffff"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ClarkWinkelmann\\Test\\": "src/"
+        }
+    }
+}
