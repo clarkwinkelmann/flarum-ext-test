@@ -61,7 +61,6 @@ System.register('clarkwinkelmann/test/main', ['flarum/app', 'clarkwinkelmann/tes
                 app.extensionSettings['clarkwinkelmann-test'] = function () {
                     return app.modal.show(new TestSettingsModal());
                 };
-                console.log('admin');
             });
         }
     };

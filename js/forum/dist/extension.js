@@ -13,7 +13,7 @@ System.register('clarkwinkelmann/test/main', ['flarum/extend', 'flarum/app'], fu
         execute: function () {
 
             app.initializers.add('clarkwinkelmann-test', function () {
-                console.log('forum');
+                //
             });
         }
     };
